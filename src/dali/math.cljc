@@ -1,4 +1,5 @@
-(ns dali.math)
+(ns dali.math
+  (:refer-clojure :exclude [abs]))
 
 #?(:cljs
    (def PI (.-PI js/Math)))

@@ -1,4 +1,5 @@
 (ns dali.batik
+  (:refer-clojure :exclude [parse-double])
   (:require [clojure.java.io :as io]
             [clojure.string :as string]
             [dali
