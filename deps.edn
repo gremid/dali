@@ -12,5 +12,5 @@
            retrograde/retrograde                      {:mvn/version "0.10"}}
  :aliases {:dev {:extra-paths ["test" "examples/src" "dev"]
                  :extra-deps  {org.clojure/tools.namespace {:mvn/version "0.2.11"}
-                               garden                      {:mvn/version "1.3.2"}
-                               hiccup                      {:mvn/version "1.0.5"}}}}}
+                               garden/garden               {:mvn/version "1.3.2"}
+                               hiccup/hiccup               {:mvn/version "1.0.5"}}}}}
